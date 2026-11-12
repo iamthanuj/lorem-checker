@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Lorem Ipsum Checker",
+  "version": "1.0.0",
+  "description": "Find leftover lorem ipsum placeholder text on the current page or across an entire website.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Lorem Ipsum Checker",
+    "default_popup": "popup.html"
+  }
+}
